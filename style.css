@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #fff;
+}
+
+/* .header{
+    background-color: red;
+    width: 100vw;
+    height: 100vh;
+} */
+
+.container{
+    background-color: #000524;
+    padding: 20px;
+}
+
+.containerBox{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.icons{
+    display: flex;
+    font-size: 20px;
+}
+
+.icons a{
+    margin-left: 20px;
+    transition: .2s;
+}
+
+.icons a:hover{
+    color: #fff;
+}
+/* fim do header */
+
+/* inicio seção sobre mim */
+
+.sobre{
+    background-color: #44749D;
+    height: 91.5vh;
+    display: flex;
+    align-items: center;
+    text-align: justify;
+}
+
+.about{
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.fase1{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .about{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: fle;
+}
+
+
+
+.text{
+    width: 30vw;
+}
+
+.text h1 span{
+    color: #000524;
+} */
+
+
