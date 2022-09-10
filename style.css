@@ -41,18 +41,27 @@
 
 /* inicio seção sobre mim */
 
+
+.text{
+    display: flex;
+    flex-wrap: wrap;
+    width: 500px;
+    text-align: justify;
+}
+
 .sobre{
     background-color: #44749D;
     height: 91.5vh;
     display: flex;
     align-items: center;
-    text-align: justify;
+    justify-content: space-between;
 }
 
 .about{
     display: flex;
     max-width: 1200px;
     margin: 0 auto;
+    justify-content: space-between;
 }
 
 .fase1{
