@@ -36,8 +36,38 @@
 
 
 .content{
+    position: absolute;
+    width: 70vw;
+    height: 55vh;
+    background-color: #000524;
+    display: flex;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.container{
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.text{
+    width: 50%;
+    text-align: justify;
+}
+
+.nick{
+    color: #eee524;
+}
+
+
+/* .content{
+    position: relative;
     max-width: 1100px;
-    margin: 0 auto;
+    max-height: 50%;
+    margin: auto;
     padding: 20px;
     display: flex;
 }
@@ -50,10 +80,10 @@
 
 .container{
     display: flex;
-    flex-direction: row-reverse;
-    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
 }
-
+ */
 
 
 .content-footer{
