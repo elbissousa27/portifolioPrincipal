@@ -56,6 +56,24 @@
 
 
 
+.content-footer{
+    position: fixed;
+    bottom: 0;
+    padding: 15px;
+    left: 50%;
+    transform: translate(-50%);
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.footer{
+    position: fixed;
+    bottom: 6vh;
+    width: 100vw;
+    border-top: 1px solid #fff;
+}
+
+
 
 
 
