@@ -9,7 +9,7 @@
 .main{
     height: 100vh;
     width: 100vw;
-    background-color: #000524;
+    background-color: #37363D;
     position: relative;
 }
 
@@ -24,6 +24,10 @@
     justify-content: space-between;
 }
 
+.logo{
+    margin-top: 2px;
+}
+
 .logo, .icons{
     padding: 20px;
 }
@@ -31,6 +35,12 @@
 .icons a{
     font-size: 20px;
     margin-left: 15px;
+    transition: .3s;
+}
+
+.icons a i:hover{
+    transition: .3s;
+    color: #626469;
 }
 /* fim header */
 
@@ -39,7 +49,7 @@
     position: absolute;
     width: 70vw;
     height: 55vh;
-    background-color: #000524;
+    background-color: #37363D;
     display: flex;
     top: 50%;
     left: 50%;
@@ -58,33 +68,13 @@
     text-align: justify;
 }
 
+.text p{
+    margin-top: 15px;
+}
+
 .nick{
-    color: #eee524;
+    color: #F2B90F;
 }
-
-
-/* .content{
-    position: relative;
-    max-width: 1100px;
-    max-height: 50%;
-    margin: auto;
-    padding: 20px;
-    display: flex;
-}
-
-.text{
-    text-align: justify;
-    max-width: 400px;
-    margin-left: 100px;
-}
-
-.container{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
- */
-
 
 .content-footer{
     position: fixed;
@@ -103,8 +93,96 @@
     border-top: 1px solid #fff;
 }
 
+.content-footer h4 a{
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.content-footer h4 a:hover{
+    transition: .3s;
+    color: #626469;
+}
 
 
+@media only screen and (max-width: 1330px){
+    .content{
+        position: absolute;
+        width: 85vw;
+        height: 55vh;
+        background-color: #37363D;
+        display: flex;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .text{
+        width: 40%;
+    }
+
+    .imagem img{
+        width: 350px;
+        height: 300px;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .content{
+        position: absolute;
+        width: 95vw;
+        height: 55vh;
+        background-color: #37363D;
+        display: flex;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .text{
+        width: 40%;
+    }
+
+    .imagem img{
+        width: 300px;
+        height: 250px;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .content{
+        position: absolute;
+        width: 95vw;
+        height: 65vh;
+        background-color: #37363D;
+        display: flex;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .container{
+        display: flex;
+        flex-direction: column-reverse;
+        padding: 20px;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .text{
+        width: 80%;
+    }
+
+    .content-footer{
+        position: fixed;
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+    }
+
+    .content-footer h4 a{
+        text-align: center;
+    }
+}
 
 
 
